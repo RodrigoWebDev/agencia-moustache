@@ -20,8 +20,10 @@
       </footer>       
     </main>
     <script src="<?php echo get_bloginfo('template_directory'); ?>/assets/js/jquery.js"></script>
+    <script src="<?php echo get_bloginfo('template_directory'); ?>/assets/js/inputmask.js"></script>
     <script src="<?php echo get_bloginfo('template_directory'); ?>/assets/js/bootstrap.js"></script>
     <script src="<?php echo get_bloginfo('template_directory'); ?>/assets/js/slick.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <script src="<?php echo get_bloginfo('template_directory'); ?>/assets/js/main.js"></script>
   </body>
 </html>
