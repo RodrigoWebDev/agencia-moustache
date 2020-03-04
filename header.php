@@ -3,12 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><?php echo get_bloginfo( 'name' ); ?></title>
-    <?php wp_head();?>
     <meta name="description" content="<?php echo get_bloginfo( 'description' ); ?>"/>
-    <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/assets/css/bootstrap.css" />
-    <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/assets/css/slick.css" />
-    <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/assets/css/main.css" />
+    <?php wp_head();?>
   </head>
   <body>
     <header>

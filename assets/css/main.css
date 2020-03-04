@@ -6,6 +6,10 @@
   --line-color: #d9d9d9;
 }
 
+div#wpadminbar {
+  display: none;
+}
+
 body {
   color: var(--text-color);
   font-family: "lato";
